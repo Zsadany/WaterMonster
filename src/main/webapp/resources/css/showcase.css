@@ -1,0 +1,327 @@
+@import url('demo.css');
+
+.showcase {
+	display: none;
+}
+
+.ps-container {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	text-transform: uppercase;
+	color: #555;
+	background: #fff;
+}
+
+.ps-container>div {
+	position: absolute;
+	width: 50%;
+}
+
+.ps-container>div>div,.ps-slidewrapper>nav,.ps-slides>div {
+	position: absolute;
+}
+
+.ps-header {
+	top: 0px;
+	left: 0px;
+	height: 100px;
+	width: 400px;
+	background-color: #000;
+	z-index: 1000;
+	box-shadow: rgba(50,50,50,0.6) -10px 0px 6px 6px;
+}
+
+.ps-header h1 {
+	line-height: 100px;
+	margin: 0;
+	padding: 0 50px;
+	font-weight: 200;
+	font-size: 20px;
+	letter-spacing: 10px;
+	text-decoration: underline;
+	color: #ddd;
+}
+
+.ps-footer {
+	bottom: 75px;
+	left: 0px;
+	height: 80px;
+	width: 400px;
+	z-index: 1000;
+	box-shadow: rgba(50,50,50,0.6) -8px 5px 6px 3px;
+}
+
+.ps-footer a {
+	color: #ccc;
+	width: 100%;
+	height: 100%;
+	display: block;
+	line-height: 80px;
+	text-align: left;
+	font-size: 20px;
+	font-weight: 200;
+	text-decoration: none;
+	background-color: rgba(50, 50, 50, 0.8);
+}
+
+.ps-footer a:hover {
+	color: #fff;
+	text-shadow: 0 0 20px #00ccff;
+	background-color: rgba(0, 0, 0, 0.9);
+}
+
+.ps-contentwrapper {
+	top: 100px;
+	bottom: 0px;
+	overflow: hidden;
+	z-index: 0;
+	background-color: #fff;
+}
+
+.ps-content {
+	background-color: #fff;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 200%;
+	padding-top: 50px;
+}
+
+.ps-content h2 {
+	padding: 10px 15px;
+	width: 90%;
+	letter-spacing: 4px;
+	margin: 10px 0 30px;
+	text-align: center;
+	font-weight: 700;
+	box-shadow: rgba(50,50,50,0.4) 3px 3px 3px 1px;
+	background-color: rgba(230,230,230,0.9);
+}
+
+.ps-content p {
+	line-height: 26px;
+	color: #fff;
+	font-size: 12px;
+	letter-spacing: 2px;
+	word-spacing: 10px;
+	padding: 10px 15px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	font-weight: 800;
+	text-align: justify;
+	background-color: rgba(80,80,80,0.9);
+}
+
+.ps-content h3.ps-price {
+	float: left;
+	margin-right: 15px;
+	width: 150px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	color: #fff;
+	font-size: 40px;
+	font-weight: 400;
+	background: rgba(0, 210, 250, 0.8);
+	box-shadow: rgba(50,50,50,0.6) 3px 3px 3px 1px;
+}
+
+.ps-content .size-container {
+	display: inline-block;
+	background-color: rgba(100,100,100,.3);
+	width: 80%;
+	padding: 5px;
+	margin: 10px;
+	border-radius: 5px;
+}
+
+.ps-content .size-container .size {
+	display: inline-block;
+	text-align: center;
+	width: 50px;
+	height: 25px;
+	opacity: 0.7;
+	padding: 5px;
+	margin: 10px;
+	border-radius: 5px;
+}
+
+.ps-content .size-container .size:hover {
+	opacity: 1;
+	box-shadow: rgba(50,50,50,0.6) 3px 3px 3px 1px;
+	background-color: #eeeeee;
+}
+
+.ps-content a:last-child {
+	font-size: 14px;
+	font-weight: 700;
+	color: rgba(0,0,0,0.8);
+	letter-spacing: 4px;
+	float: left;
+	border: 3px solid rgba(0,0,0,0.8);
+	background: rgba(220, 220, 220, 0.8);
+	padding: 3px;
+	margin-left: 50%;
+	margin-top: 20px;
+	text-indent: 4px;
+	text-decoration: none;
+}
+
+.no-touch .ps-content a:last-child:hover {
+	background: rgba(250, 150, 0, 0.8);
+	box-shadow: rgba(50,50,50,0.6) 3px 3px 3px 1px;
+}
+
+.ps-slidewrapper {
+	right: 0px;
+	top: 0px;
+	height: 100%;
+	overflow: hidden;
+	box-shadow: rgba(50,50,50,0.6) 0px 0px 6px 6px;
+}
+
+.ps-slides {
+	top: 0px;
+	bottom: 200px;
+	width: 100%;
+	z-index: 1000;
+	box-shadow: rgba(50,50,50,0.6) 0px 0px 6px 6px;
+}
+
+.ps-slides>div {
+	width: 100%;
+	height: 100%;
+	box-shadow: inset 0 0 0 9999px rgba(179, 157, 250, 0.1);
+}
+
+.ps-slidewrapper>nav {
+	width: 100%;
+	height: 200px;
+	bottom: 0px;
+	right: 0px;
+	z-index: 1000;
+}
+
+.ps-slidewrapper>nav>a {
+	width: 50%;
+	height: 100%;
+	position: relative;
+	float: left;
+	box-shadow: inset 0 0 0 9999px rgba(50, 50, 50, 0.8);
+	outline: none;
+}
+
+.ps-slidewrapper>nav>a:first-child {
+	box-shadow: inset 0 0 0 9999px rgba(50, 50, 50, 0.8);
+}
+
+.no-touch .ps-slidewrapper>nav>a {
+	-webkit-transition: box-shadow 0.4s ease-in-out;
+	-moz-transition: box-shadow 0.4s ease-in-out;
+	-ms-transition: box-shadow 0.4s ease-in-out;
+	-o-transition: box-shadow 0.4s ease-in-out;
+	transition: box-shadow 0.4s ease-in-out;
+}
+
+.no-touch .ps-slidewrapper>nav>a:hover {
+	box-shadow: inset 0 0 0 9999px rgba(15, 15, 15, 0.1);
+}
+.no-touch .ps-slidewrapper>nav>a:first-child:hover {
+	box-shadow: inset 0 0 0 9999px rgba(15, 15, 15, 0.1);
+}
+
+.ps-slidewrapper>nav>a:after {
+	content: '';
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 50%;
+	left: 50%;
+	margin: -20px 0 0 -50px;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+	border-left: 10px solid #fff;
+	border-top: 10px solid #fff;
+}
+
+.ps-slidewrapper>nav>a:first-child:after {
+	-webkit-transform: rotate(-135deg);
+	-moz-transform: rotate(-135deg);
+	-o-transform: rotate(-135deg);
+	-ms-transform: rotate(-135deg);
+	transform: rotate(-135deg);
+	margin: -80px 0 0 -50px;
+}
+
+.ps-slides>div,.ps-slidewrapper>nav>a {
+	background-color: #fff;
+	background-position: center top;
+	background-repeat: no-repeat;
+	-webkit-background-size: auto 100%;
+	-moz-background-size: auto 100%;
+	background-size: auto 100%;
+}
+
+.ps-move {
+	-webkit-transition: top 400ms ease-out;
+	-moz-transition: top 400ms ease-out;
+	-o-transition: top 400ms ease-out;
+	-ms-transition: top 400ms ease-out;
+	transition: top 400ms ease-out;
+}
+
+@media screen and (max-width: 860px) {
+	.js .ps-container>div {
+		width: 100%;
+	}
+	.js .ps-header {
+		height: 50px;
+	}
+	.js .ps-header h1 {
+		line-height: 50px;
+		padding: 0px 20px;
+		letter-spacing: 4px;
+	}
+	.js .ps-slides {
+		bottom: 320px;
+		top: 50px;
+	}
+	.js .ps-slidewrapper>nav {
+		height: 100px;
+	}
+	.js .ps-contentwrapper {
+		top: auto;
+		height: 250px;
+		bottom: 100px;
+	}
+	.js .ps-content {
+	}
+	.js .ps-content h2 {
+		border-right: none;
+		font-size: 18px;
+		padding-top: 0;
+	}
+	.js .ps-content h3.ps-price {
+		font-size: 18px;
+		width: 50px;
+		height: 50px;
+		line-height: 50px;
+		font-weight: 700;
+		margin-bottom: 0;
+	}
+	.js .ps-content p {
+		line-height: 20px;
+		border: none;
+		padding: 5px 10px;
+		height: 80px;
+		overflow-y: scroll;
+	}
+	.js .ps-content a:last-child {
+		font-size: 13px;
+		margin: 10px 20px 0 0;
+	}
+}

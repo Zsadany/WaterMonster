@@ -1,0 +1,56 @@
+/*============================================================================ frames */
+
+/*-------------------------------------------------------- in top */
+@-webkit-keyframes moveFromTop {
+    from { opacity: 0; -webkit-transform: translateY(-100%) scale(.8) ; }
+}
+@-moz-keyframes moveFromTop{
+    from {opacity: 0; -moz-transform: translateY(-100%) scale(.8); }
+}
+@-ms-keyframes moveFromTop {
+    from {opacity: 0; -ms-transform: translateY(-100%) scale(.8); }
+}
+
+/*-------------------------------------------------------- out top */
+@-webkit-keyframes moveToTop {
+    to { opacity: 0; -webkit-transform: translateY(-100%) scale(.8); }
+}
+@-moz-keyframes moveToTop{
+    to { opacity: 0; -moz-transform: translateY(-100%) scale(.8); }
+}
+@-ms-keyframes moveToTop {
+    to { opacity: 0; -ms-transform: translateY(-100%) scale(.8); }
+}
+
+/*-------------------------------------------------------- in bottom */
+@-webkit-keyframes moveFromBottom {
+    from { opacity: 0; -webkit-transform: translateY(100%) scale(.8); }
+}
+@-moz-keyframes moveFromBottom{
+    from { opacity: 0; -moz-transform: translateY(100%) scale(.8); }
+}
+@-ms-keyframes moveFromBottom {
+    from { opacity: 0; -ms-transform: translateY(100%) scale(.8); }
+}
+
+/*-------------------------------------------------------- out bottom */
+@-webkit-keyframes moveToBottom {
+    to { opacity: 0; -webkit-transform: translateY(100%) scale(.8); }
+}
+@-moz-keyframes moveToBottom{
+    to { opacity: 0; -moz-transform: translateY(100%) scale(.8); }
+}
+@-ms-keyframes moveToBottom {
+    to { opacity: 0; -ms-transform: translateY(100%) scale(.8); }
+}
+
+/*-------------------------------------------------------- scale */
+@-webkit-keyframes scaleUp {
+	to { -webkit-transform: translateX(-5%) translateY(-5%); }
+}
+@-moz-keyframes scaleUp{
+	to { -moz-transform: translateX(-5%) translateY(-5%); }
+}
+@-ms-keyframes scaleUp {
+	to { -ms-transform: translateX(-5%) translateY(-5%); }
+}

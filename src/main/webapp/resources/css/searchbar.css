@@ -1,0 +1,30 @@
+#searchbar {
+	background-color: #ffffff;
+	width: 1024;
+	display: none;
+}
+
+#search-field-container {
+	background: rgba(0,0,0,0.4);
+	width: 846px;
+}
+.search-field {
+	font-size: 22px;
+    font-family: sans-serif;
+    line-height: 25px;
+    text-align: center;
+	height: 50px;
+	width: 780px;
+	border-radius: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: rgba(250,250,250,0.7);
+	
+}
+.search-field:hover {
+	background-color: rgba(250,250,250,0.5);
+}
+

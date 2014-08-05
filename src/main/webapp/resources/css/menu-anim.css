@@ -1,0 +1,188 @@
+/*====================================================================================== Animation triggering classes */
+
+.anim-move-from-top {
+	-webkit-animation: moveFromTop 600ms ease both;
+    -moz-animation: moveFromTop 600ms ease both;
+    -ms-animation: moveFromTop 600ms ease both;
+}
+.anim-move-from-bottom {
+	-webkit-animation: moveFromBottom 600ms ease both;
+    -moz-animation: moveFromBottom 600ms ease both;
+    -ms-animation: moveFromBottom 600ms ease both;
+}
+.anim-move-from-right {
+	-webkit-animation: moveFromRight 600ms ease both;
+    -moz-animation: moveFromRight 600ms ease both;
+    -ms-animation: moveFromRight 600ms ease both;
+}
+.anim-move-from-left {
+	-webkit-animation: moveFromLeft 600ms ease both;
+    -moz-animation: moveFromLeft 600ms ease both;
+    -ms-animation: moveFromLeft 600ms ease both;
+}
+.anim-move-to-top {
+	-webkit-animation: moveToTop 600ms ease both;
+    -moz-animation: moveToTop 600ms ease both;
+    -ms-animation: moveToTop 600ms ease both;
+}
+.anim-move-to-bottom {
+	-webkit-animation: moveToBottom 600ms ease both;
+    -moz-animation: moveToBottom 600ms ease both;
+    -ms-animation: moveToBottom 600ms ease both;
+}
+.anim-move-to-left {
+	-webkit-animation: moveToLeft 600ms ease both;
+    -moz-animation: moveToLeft 600ms ease both;
+    -ms-animation: moveToLeft 600ms ease both;
+}
+.anim-move-to-right {
+	-webkit-animation: moveToRight 600ms ease both;
+    -moz-animation: moveToRight 600ms ease both;
+    -ms-animation: moveToRight 600ms ease both;
+}
+
+.anim-showcase {
+	-webkit-animation: showcase 600ms ease both;
+    -moz-animation: showcase 600ms ease both;
+    -ms-animation: showcase 600ms ease both;
+}
+
+/*===================================================================================== CSS Animations */
+
+/* ------------------------------------------ Animated element moves in from top.*/
+@-webkit-keyframes moveFromTop {
+    from { -webkit-transform: translateY(-200%); }
+    to { -webkit-transform: translateY(0%); }
+}
+@-moz-keyframes moveFromTop{
+    from { -moz-transform: translateY(-200%); }
+    to { -moz-transform: translateY(0%); }
+}
+@-ms-keyframes moveFromTop {
+    from { -ms-transform: translateY(-200%); } 
+    to { -ms-transform: translateY(0%); }
+}
+
+/* ------------------------------------------ Animated element moves in from bottom. */
+@-webkit-keyframes moveFromBottom {
+    from { -webkit-transform: translateY(200%); } 
+    to { -webkit-transform: translateY(0%); }
+}
+@-moz-keyframes moveFromBottom {
+    from { -moz-transform: translateY(200%); }
+    to { -moz-transform: translateY(0%); }
+}
+@-ms-keyframes moveFromBottom {
+    from { -ms-transform: translateY(200%); } 
+    to { -ms-transform: translateY(0%); }
+}
+
+/* ------------------------------------------ Animated element moves in from left. */
+@-webkit-keyframes moveFromLeft {
+    from { -webkit-transform: translateX(-200%); }
+    to { -webkit-transform: translateX(0%); }
+}
+@-moz-keyframes moveFromLeft {
+    from { -moz-transform: translateX(-200%); }
+    to { -moz-transform: translateX(0%); }
+}
+@-ms-keyframes moveFromLeft {
+    from { -ms-transform: translateX(-200%); }
+    to { -ms-transform: translateX(0%); }
+}
+
+/* ------------------------------------------ Animated element moves in from right. */
+@-webkit-keyframes moveFromRight {
+    from { -webkit-transform: translateX(200%); }
+    to { -webkit-transform: translateX(0%); }
+}
+@-moz-keyframes moveFromRight {
+    from { -moz-transform: translateX(200%); }
+    to { -moz-transform: translateX(0%); }
+}
+@-ms-keyframes moveFromRight {
+    from { -ms-transform: translateX(200%); }
+    to { -ms-transform: translateX(0%); }
+}
+
+/* ------------------------------------------ Animated element moves out to top.*/
+@-webkit-keyframes moveToTop {
+    from { -webkit-transform: translateY(0%); }
+    to { -webkit-transform: translateY(-200%); }
+}
+@-moz-keyframes moveToTop{
+    from { -moz-transform: translateY(0%); }
+    to { -moz-transform: translateY(-200%); }
+}
+@-ms-keyframes moveToTop {
+    from { -ms-transform: translateY(0%); }
+    to { -ms-transform: translateY(-200%); }
+}
+
+/* ------------------------------------------ Animated element moves out to bottom.*/
+@-webkit-keyframes moveToBottom {
+    from { -webkit-transform: translateY(0%); }
+    to { -webkit-transform: translateY(200%); }
+}
+@-moz-keyframes moveToBottom{
+    from { -moz-transform: translateY(0%); }
+    to { -moz-transform: translateY(200%); }
+}
+@-ms-keyframes moveToBottom {
+    from { -ms-transform: translateY(0%); }
+    to { -ms-transform: translateY(200%); }
+}
+
+/* ------------------------------------------ Animated element moves out to left.*/
+@-webkit-keyframes moveToLeft {
+    from { -webkit-transform: translateX(0%); }
+    to { -webkit-transform: translateX(-200%); }
+}
+@-moz-keyframes moveToLeft{
+    from { -moz-transform: translateX(0%); }
+    to { -moz-transform: translateX(-200%); }
+}
+@-ms-keyframes moveToLeft {
+    from { -ms-transform: translateX(0%); }
+    to { -ms-transform: translateX(-200%); }
+}
+
+/* ------------------------------------------ Animated element moves out to right.*/
+@-webkit-keyframes moveToRight {
+    from { -webkit-transform: translateX(0%); }
+    to { -webkit-transform: translateX(200%); }
+}
+@-moz-keyframes moveToRight{
+    from { -moz-transform: translateX(0%); }
+    to { -moz-transform: translateX(200%); }
+}
+@-ms-keyframes moveToRight {
+    from { -ms-transform: translateX(0%); }
+    to { -ms-transform: translateX(200%); }
+}
+
+/* ------------------------------------------ Animated showcase.*/
+@-webkit-keyframes showcase {
+    from { -webkit-transform: translateX(100%); margin-left: 2000px; display: block; }
+    to { -webkit-transform: translateX(0%); margin-left: 0px; }
+}
+@-moz-keyframes showcase{
+    from { -moz-transform: translateX(100%); margin-left: 2000px; display: block; }
+    to { -moz-transform: translateX(0%); margin-left: 0px; }
+}
+@-ms-keyframes showcase {
+    from { -ms-transform: translateX(100%); margin-left: 2000px; display: block; }
+    to { -ms-transform: translateX(0%); margin-left: 0px; }
+}
+
+
+/* ------------------------------------------ Fade element to 0.3 opacity*/
+@-webkit-keyframes fade {
+	to { opacity: 0.3; }
+}
+@-moz-keyframes fade {
+	to { opacity: 0.3; }
+}
+@keyframes fade {
+	to { opacity: 0.3; }
+}

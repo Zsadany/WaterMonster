@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'wm_symbols';
+  src: url('/wshop/resources/symbols/wm_symbols.eot?55144013');
+  src: url('/wshop/resources/symbols/wm_symbols.eot?55144013#iefix') format('embedded-opentype'),
+       url('/wshop/resources/symbols/wm_symbols.woff?55144013') format('woff'),
+       url('/wshop/resources/symbols/wm_symbols.ttf?55144013') format('truetype'),
+       url('/wshop/resources/symbols/wm_symbols.svg?55144013#wm_symbols') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
