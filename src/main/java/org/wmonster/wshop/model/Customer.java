@@ -4,7 +4,6 @@ import org.hibernate.validator.constraints.Email;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import sun.security.util.Password;
 
 @Document(collection = "users")
 public class Customer {
@@ -12,7 +11,7 @@ public class Customer {
 	@Id
 	@Email
 	String email;
-	Password password;
+	String password;
 
 	public Customer(String email, String password) {
 	}
@@ -21,7 +20,7 @@ public class Customer {
 		return email;
 	}
 
-	public Password getPassword() {
+	public String getPassword() {
 		return password;
 	}
 
